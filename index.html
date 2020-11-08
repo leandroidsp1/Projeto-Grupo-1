@@ -7,7 +7,18 @@
     <title>fishing</title>
     <!--   importar o css -->
     <link rel="stylesheet" href="style.css">
+    <!-- https://www.w3schools.com/icons/fontawesome5_intro.asp -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- https://code.jquery.com/ jQuery Core 3.5.1 - uncompressed -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        <!-- faz aparecer menu clicando na barra de 3 pontos  -->
+        $(document).ready(function() {
+            $('#icon').click(function() {
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -26,6 +37,7 @@
             <!-- varios modelos no link https://www.w3schools.com/icons/fontawesome5_intro.asp -->
         </label>
     </nav>
+    <section></section>
 
 </body>
 
